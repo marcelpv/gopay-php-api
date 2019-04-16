@@ -30,7 +30,7 @@ $embedJs = $gopay->urlToEmbedJs()
 ?>
 
 <form id="payment-container" action="/eshop/create-payment">
-   <script src="<?php echo $embedJs;>"></script>
+   <script src="<?php echo $embedJs;?>"></script>
    <input type="hidden" name="order_id" value="123"/>
    <button id="payment-invoke-checkout" type="submit" name="pay">Pay</button>
 </form>
